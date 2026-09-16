@@ -17,7 +17,7 @@ El proyecto utiliza una arquitectura basada en microservicios gestionada con Doc
 * **InfluxDB:** Base de datos de series temporales (TSDB) optimizada para almacenar el volumen de mediciones.
 * **Grafana:** Plataforma de visualización para monitorear las fluctuaciones de temperatura.
 
-## Instrucciones para el Revisor
+## Instrucciones de instalación
 
 Sigue estos pasos para clonar y levantar el entorno localmente:
 
