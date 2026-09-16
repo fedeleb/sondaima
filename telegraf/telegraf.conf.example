@@ -1,0 +1,18 @@
+[agent]
+  interval = "60s"
+  round_interval = true
+  flush_interval = "10s"
+
+[[inputs.disk]]
+  ignore_fs = ["tmpfs", "devtmpfs", "overlay", "squashfs"]
+
+[[inputs.mem]]
+[[inputs.cpu]]
+  percpu = true
+  totalcpu = true
+
+[[outputs.influxdb_v2]]
+  urls = ["http://influxdb:8086"]
+  token = ""
+  organization = ""
+  bucket = ""

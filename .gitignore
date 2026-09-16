@@ -1,0 +1,6 @@
+.env
+backups/
+*.log
+__pycache__/
+*.pyc
+telegraf/telegraf.conf
