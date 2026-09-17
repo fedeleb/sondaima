@@ -1,8 +1,8 @@
-# Sonda de Temperaturas Subterráneas - IoT Stack
+# DIFUSIVIDAD TÉRMICA APARENTE DEL SUELO MEDIANTE ATENUACIÓN DE LA AMPLITUD TÉRMICA DIARIA: ESTUDIO COMPARATIVO SAN JUAN - HUELVA
 
-Este repositorio contiene el stack de software para la recolección, almacenamiento y visualización de datos provenientes de una sonda de medición de temperaturas subterráneas. El sistema está diseñado para el monitoreo continuo del perfil térmico del suelo, generando datos útiles para estudios de difusividad térmica y análisis de sistemas termodinámicos.
+Este repositorio contiene el stack de software para la recolección, almacenamiento y visualización de datos provenientes de una sonda de medición de temperaturas subterráneas instalada en la Facultad de Ingeniería de la Universidad Nacional de San Juan, Argentina. El sistema está diseñado para el monitoreo continuo del perfil térmico del suelo, generando datos útiles para estudios de difusividad térmica y análisis de sistemas termodinámicos.
 
-## Diseño Físico de la Sonda
+## Diseño Físico del sistema
 
 El hardware de medición está estructurado para garantizar alta confiabilidad y tolerancia a fallos en las lecturas, utilizando sensores digitales DS18B20 distribuidos estratégicamente:
 * **Profundidad de medición:** Desde la superficie hasta los 3 metros de profundidad.
