@@ -37,3 +37,7 @@ Sigue estos pasos para clonar y levantar el entorno localmente:
 ## Acceso a los servicios
 * **Grafana:** `http://localhost:3000` (Ver credenciales en el archivo `.env`)
 * **InfluxDB:** `http://localhost:8086`
+
+## Script de Recolección de datos para Arduino
+
+El proyecto utiliza un Arduino UNO para la recolección y envío de datos a través del Puerto Serial. Para ello, el usuario debe cargarle a Arduino el Script diseñado para tal fin fin, el cual se encuentra en este repositorio dentro de la carpeta "Arduino".
