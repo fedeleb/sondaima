@@ -4,7 +4,7 @@ Este repositorio contiene el stack de software para la recolección, almacenamie
 
 ## Diseño Físico del sistema
 
-El hardware de medición está estructurado para garantizar alta confiabilidad y tolerancia a fallos en las lecturas, utilizando sensores digitales DS18B20 distribuidos estratégicamente:
+El hardware de medición está estructurado para garantizar alta confiabilidad y tolerancia a fallos en las lecturas, utilizando sensores digitales DS18B20 distribuidos estratégicamente,  conectados mediante protocolo 1-Wire a una placa de Desarrollo Arduino UNO diseñada para tal fin:
 * **Profundidad de medición:** Desde la superficie hasta los 3 metros de profundidad.
 * **Resolución espacial:** Un nivel de medición cada 50 cm.
 * **Redundancia:** 4 sensores independientes por cada nivel, lo que permite promediar lecturas y descartar valores anómalos.
